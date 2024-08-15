@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(122, 226, 226);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form{
+    background-color: rgb(95, 95, 187);
+    min-height: 500px;
+    min-width: 500px;
+    max-width: 300px;
+}
+.formgroup{
+    margin-bottom: 20px;
+    padding: 20px;
+
+
+}
+.formgroup input{
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+.formgroup button{
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.formgroup label{
+    display: block;
+}
