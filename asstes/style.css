@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #e7e4e4;
+}
 .container{
    width: 500px;
-   height: 600px;
+   height: 500px;
    padding: 30px;
    margin: 20px auto;
    border-radius: 20px;
@@ -15,7 +18,7 @@
    padding: 20px;
    height: 120%;
    border-radius: 10px;
-   background-color: lightyellow;
+   background-color: rgb(233, 178, 126);
    box-shadow:  5px 5px 10px #a3a2a2,
             -5px -5px 10px #ffffff;
 }
@@ -49,15 +52,12 @@
     margin: 0px;
     text-align: center;
 }
-.formgroup.error p{
-    color: rgb(233, 47, 47);
-} 
 .formgroup.error input{
     border-color: rgb(233, 47, 47);
 } 
 .formgroup.success input{
-    border-color: hsl(120, 53%, 50%);
+    border-color:hsl(120, 53%, 50%);
 } 
-.formgroup p{
-    font-size: 17px;
+.error{
+    color: red;
 }
